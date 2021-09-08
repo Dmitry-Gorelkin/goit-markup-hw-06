@@ -237,7 +237,7 @@ ul {
 }
 
 .footer-social {
-
+	margin-right: 93px;
 }
 
 .footer-title {
@@ -284,6 +284,68 @@ ul {
 
 .footer-icon {
 	fill: #FFFFFF;
+}
+
+.newsletter {
+
+}
+
+.newsletter-titel {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+	margin-bottom: 20px;
+}
+
+.newsletter-form {
+	display: flex;
+}
+
+.newsletter-label {
+
+}
+
+.newsletter-input {
+	width: 358px;
+	height: 50px;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, .15);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	margin-right: 12px;
+	padding: 15px;
+}
+
+.newsletter-btn {
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.newsletter-btn-text {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+	
+	display: block;
+	margin-right: 10px;
+}
+
+.newsletter-btn-icon {
+	display: block;
 }
 
 .footer-address-link:hover,
